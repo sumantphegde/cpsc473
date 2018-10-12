@@ -1,0 +1,283 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.nav {
+  display: inline-flex;
+  position: relative;
+  width: 100%
+}
+
+.nav ul li
+{
+  display: inline;
+  padding-left: 65px;
+  font-family: Calibri;
+  position: relative;
+}
+
+i {
+  border: solid black;
+  border-width: 0 2px 2px 0;
+  display: inline-flex;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.offer {
+  background-color: #FF6666;
+  color: white;
+  font-weight: 900;
+  font-size: 25px;
+  height: 250px;
+  font-family: Arial Black;
+  padding-top: 40px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+#duration {
+  color: white;
+  font-size: 22px;
+  height: 250px;
+  font-family: Arial Black;
+  padding-top: 40px;
+  margin: 0;
+}
+
+p {
+  display: inline;
+  font-family: Old English Text MT;
+}
+
+.align {
+  padding-left: 120px;
+}
+
+.container {
+  display: inline-flex;
+  flex-wrap: nowrap;
+}
+
+.container>div.one {
+  border-radius: 4px;
+  background-color: #3498DB;
+  width: 220px;
+  margin: 3px;
+  text-align: left;
+  line-height: 25px;
+  font-size: 22px;
+  color: white;
+  font-family: Calibri Light;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.container>div.two {
+  border-radius: 4px;
+  background-color: #000080;
+  width: 220px;
+  margin: 3px;
+  text-align: left;
+  line-height: 25px;
+  font-size: 22px;
+  color: white;
+  font-family: Calibri Light;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.container>div.three {
+  border-radius: 4px;
+  background-color: #17202A;
+  width: 230px;
+  margin: 3px;
+  text-align: left;
+  line-height: 25px;
+  font-size: 22px;
+  color: white;
+  font-family: Calibri Light;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+span {
+  font-size: 15px;
+}
+
+input.basic {
+  background-color: #82CAFA;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  height: 25px;
+  width: 100%;
+}
+
+input.all {
+  background-color: #2E86C1;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  height: 25px;
+  width: 100%;
+}
+
+input.print {
+  background-color: #707B7C;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  height: 25px;
+  width: 100%;
+}
+
+ul.deal {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  width: 250px;
+}
+
+ul.deal li:before {
+  content: '✓';
+  margin: 0;
+  padding-left: 0;
+}
+
+#offer {
+  padding-left: 0px;
+  font-family: Calibri;
+  font-size: 14px;
+  margin: 0;
+  text-align: justify;
+}
+
+#tandc {
+  display: flex;
+  flex-direction: row-reverse;
+  color: grey;
+  font-size: 10px;
+  text-align: justify;
+  padding-right: 300px;
+}
+
+.options {
+  border-radius: 4px;
+  background-color: #E5E8E8;
+  width: 500px;
+  margin: 5px;
+  text-align: left;
+  line-height: 25px;
+  font-size: 22px;
+  color: black;
+  font-family: Calibri Light;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+
+footer {
+  background: #202020;
+  color: white;
+  width: auto;
+  margin: 0 auto;
+}
+
+.footlable {
+  display: block;
+  padding-left: 80px;
+  margin: 18px;
+  line-height: 30px;
+}
+
+ul.footlable li {
+  display: block;
+  padding-left: 0px;
+  margin: 8px;
+}
+
+.foot-container {
+  display: inline-flex;
+}
+
+#cancel {
+  color: grey;
+  font-size: 10px;
+  text-align: justify;
+  padding-left: 230px;
+}
+
+.block {
+  padding-left: 240px;
+  font-family: Calibri;
+  line-height: 30px;
+}
+
+bl {
+  font-weight: bold;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin: 0;
+}
+
+.faq_button {
+  background-color: #007FFF;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 2px;
+  height: 25px;
+  width: 120px;
+  font-weight: bold;
+}
+
+h4 {
+  color: #fff;
+  cursor: pointer;
+  font-family: "nyt-franklin", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 0 0 0px;
+  padding: 4px 0;
+  position: relative;
+}
+
+.login {
+  display: inline-flex;
+  padding-left: 400px;
+  padding-top: 20px;
+  font-size: 14px;
+  font-family: Calibri;
+  text-align: right;
+}
